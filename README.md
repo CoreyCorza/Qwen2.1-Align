@@ -6,7 +6,7 @@ ComfyUI/custom_nodes
 
 Attempt to reduce Qwen2.1 (and other editing models) pixel shift.    
 Uses OpenCV SIFT feature matching and RANSAC to estimate transform correction.     
-Significant edits might cause it to fail as it requires before/after images to contain (mostly) matching areas needed for realignment.  
+Significant edits might cause it to fail as it requires before/after images to contain (some) matching areas needed for realignment.  
 
 
 
